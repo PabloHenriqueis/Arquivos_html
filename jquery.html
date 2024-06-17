@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+</head>
+<style>
+   img {
+    width: 200 px;
+   }
+   </style>
+<body id="h1">
+    <h1 id="h1">pai</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, deserunt velit? Recusandae ipsa, alias nisi reiciendis, assumenda, natus sequi dolorum eius perferendis maxime porro reprehenderit omnis cumque quibusdam magnam enim?</p>
+    <ul id="lista">
+        <li>gtx 3060</li>
+        <li>ryse 7</li>
+    </ul>
+    <img src="numero_4_.jpg" alt="numero 4"
+    id="img">
+    <button id="bt1" onclick="salvar()">altear texto</button>
+    <script src ="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+<script>
+  
+  $('#bt1').click(function() {
+
+      $('#h1').text('você carrega muito animal na firma e nem é  noe');
+      $('#h1').css('color','red')
+      $('#h1').css('background','gray')
+})
+
+$('#img').click(function(){
+
+    $(this).slideToggle('slow')
+})
+
+$('#h1').click(function(){
+    $('#img').slideToggle('slow');
+})
+$('#lista li').mouseover(function(){
+    $(this).css('font-weight','bold');
+})
+$('#lista li').mouseout(function(){
+    $(this).css('font-weight','normal');
+})
+$('input[type="h1"]')
+</script>
+</body>
+</html>
+<!--$('#lista ul li').mouseover-->

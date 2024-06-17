@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>subtitulo 1</h4>
+    <ol> 
+        <li> fis 80</li>
+        <li>pas 90</li>
+        <li>def 80</li>
+        <li>dri 40</li>
+        <li>pac 80</li>
+        <li>phy 90</li>
+        <ul>
+            <li>1:"phy" é uma abreviação para "physical" (físico, em inglês). Essa característica é atribuída aos jogadores e representa sua força física, resistência e capacidade de ganhar disputas de bola</li>
+        </ul>
+    </ol>
+    
+</body>
+</html>
+
+

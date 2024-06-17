@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7_aula</title>
+</head>
+<body>
+
+    <h1 id="h1"> capitulo_1</h1>
+
+ <form>
+     <label for="icurso">curso de faculdade</label>
+     <input type="text" name="curso" id="icurso" value="curso da informação">
+ </form>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nostrum. Ipsam deleniti, esse neque sit voluptatem blanditiis distinctio ab nemo asperiores voluptatum laudantium, quos velit ullam porro eaque pariatur molestias?</p>
+    <p id="p">curso</p>
+    <button onclick="trocar()">alterar texto</button>
+    <button onclick="salvar()">salvar curso</button>
+    <script>
+        function trocar() {
+            var h1 = document.getElementById('h1');
+            h1.innerText = 'é bait garai kkkk';
+            h1.style.color = 'red';
+        }
+        function salvar() {
+
+        var curso = document.getElementById('icurso').value;
+        var p = document.getElementById('p');
+        p.innerHTML = curso;
+        }
+    </script>
+</body>
+</html>

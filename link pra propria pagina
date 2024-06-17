@@ -1,0 +1,61 @@
+<link rel="shortcut icon" href="iconi_1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1> sumario &#x1F6A2
+    </h1>
+    <h2 id="top">capitulo 1</h2>
+    <p><strong>lista de jogos feita por pablo </strong>  <em>os jogos apresentados variam do genero</em> <ins>ação,aventura é hack 'n' slash</ins> </p>
+    <table>
+        <tr>
+            <td colspan="4" style="font: size 1.6m;" >
+                lista de jogos intresantes
+            </td>
+        </tr>
+        <tr>
+            <td>
+                jogo
+            </td>
+            <td>
+             ano
+            </td>
+            <td>
+            plataforma
+            </td>
+        </tr>
+        <tr>
+            <td>
+                undertale
+            </td>
+            <td>
+                2015
+            </td>
+            <td>
+                pc,ps4,xbox
+            </td>
+        </tr>
+        <tr>
+            <td>
+                sekiro
+            </td>
+            <td>
+                2019
+            </td>
+            <td>
+              ps4,xbox one,pc
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Doom:Eternal
+            </td>
+            <td>
+                2020
+            </td>
+            <td>
+                ps5,ps4,nintendo swicht,pc
+            </td>
+        </tr>            
+    </table> 
+<a href="top">volte ao topo meu nobre.....</a>
+    <!--link pode seer dentro ou fora-->
